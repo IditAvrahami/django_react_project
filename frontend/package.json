@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "react-frontend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "hizir aslan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.5",
+    "css-loader": "2.1.1",
+    "style-loader": "0.23.1",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cities-list": "^1.0.3",
+    "formik": "^2.2.9",
+    "moment": "^2.29.3",
+    "react": "16.8.6",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "16.8.6",
+    "react-hot-loader": "4.8.4",
+    "react-router-dom": "^6.4.0-pre.2",
+    "semantic-ui-react": "^2.1.2",
+    "use-places-autocomplete": "^3.0.0",
+    "yup": "^0.32.11"
+  }
+}
