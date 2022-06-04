@@ -1,0 +1,61 @@
+בין תאוריה למעשה – פרוייקט תכנותי
+עידית אברהמי - 207565748
+
+התקנה ביצעתי בטרמינל של סביבת העבודה בעזרת הפקודה: pip install Django
+הסברים ומידע לקחתי מסדרת הסרטונים של :
+•	 
+Corey Schafer
+•	https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
+•	https://www.youtube.com/watch?v=PtQiiknWUcI
+•	https://www.youtube.com/watch?v=ejJ-2oz4AgI
+•	https://www.youtube.com/watch?v=OTmQOjsl0eg
+•	django documentation : https://docs.djangoproject.com/en/4.0/
+•	for DB : https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
+
+
+ Django: 
+לא הכרתי את זה לפני אז הכל היה לי חדש.
+הלימוד היה לי קצת קשה כי בהתחלה נתקעתי הרבה על שלבי ההתקנה כי הייתה לי בעיה במחשב.
+למדתי בעזרת הסרטונים(זה עזר לי ללמוד לחפש יותר טוב בגוגל) ועברתי שלב שלב לפי ההסברים בו. נעזרתי בסרטונים הבאים:
+
+Corey Schafer
+https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
+               https://www.youtube.com/watch?v=PtQiiknWUcI
+django documentation : https://docs.djangoproject.com/en/4.0/
+
+ובנוסף הקישור בין צד הלקוח לשרת ושליחת בקשות בין שרת ללקוח אתגרו אותי מאוד.
+Pip install virtualenv עבור התקנה לסביבה ווירטואלית:
+Virtualenv env
+Env\ scripts\activate
+Pip install Django – התקנת   django
+Django-admin startproject <name of project> - יצירת פרוייקט
+Python manage.py startapp <name_of_app > - בניית אפליקצייה 
+Python manage.py runserver – הרצת השרת
+כדי לבנות טבלאות ב-DB תצטרך לכתוב את המודלים שלך בפרויקט Django ולהקליד:
+python manage.py makemigrations
+python manage.py migrate -> זה יצור טבלאות ב-DB.
+הסרטונים מסבירים את העבודה עם Django 
+ומכל סרטון לקחתי חלק ושילבתי ביניהם.
+
+
+React:
+הכרתי ריאקט לפני (אנחנו לומדים בקורס תכנות אינטרנט) .
+חיפשתי באתר של ריאקט דברים שהיו לי חסרים.
+https://reactjs.org/ 
+למדתי טריקים חדשים ועיצובים חדשים 
+https://formik.org/docs/api/field
+https://reactdatepicker.com/
+https://www.sanity.io/guides/form-validation-with-npm-yup
+https://www.geeksforgeeks.org/axios-in-react-a-guide-for-beginners/
+נהנתי מאוד בעבודה עם ריאקט אני אוהבת מאוד ללמוד דברים חדשים וצורות שונות לבצע פעולות ולהציג על המסך.
+למדתי פונקציות חדשות שלא ידעתי שקיימות בריאקט ולכן המימוש שלהם היה מאתגר אבל אני שמחה מאוד מהתוצאה שיצאה.
+
+ההוספה למבני הנתונים גם מסרטון שלקחתי מגוגל .
+אני מכירה את השפה אז זה היה לי בסדר. 
+אבל כתיבת הקוד של התוכנית לגישה למסד נתונים אתגר אותי גם.
+זאת הייתה פעם ראשונה שכתבתי גם את צד השרת וגם את הלקוח לבד. 
+וזה חידד לי מאוד איך כל דבר עובד . 
+
+
+
+
