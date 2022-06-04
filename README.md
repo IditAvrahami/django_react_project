@@ -11,10 +11,13 @@
         To run locally, do the usual:
 
         #. Create a Python 3.5 virtualenv
-
+        pip install --user virtualenv
+        python -m virtualenv venv
+        activate : venv/scripts/activate
+        deactivate : venv/scripts/deactivate
         #. Install dependencies::
 
-            pip3 install -r requirements.txt
+            pip3 install -r requirements.txt (pip freeze > requirements.txt)
 
         #. Create databases::
 

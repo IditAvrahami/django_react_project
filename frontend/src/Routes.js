@@ -35,7 +35,7 @@ function AppRoutes() {
             <div className="menu"></div>
             <div className="App-intro">
                 <Routes>
-                    <Route path="/" element={<UserList/>}/>
+                    <Route path="/" element={<RegisterForm/>}/>
                     <Route path="/summary" element={<UserList/>}/> 
                 </Routes>
             </div>

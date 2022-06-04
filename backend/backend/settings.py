@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'users'
+    'users',
+    'django_createuser',
 ]
 
 MIDDLEWARE = [
@@ -81,9 +82,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'UserProject_4',
+        'NAME': 'dbvaccinatiom',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': '1998',
         'HOST': 'localhost'
     }
 }
